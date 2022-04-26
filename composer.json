@@ -1,0 +1,21 @@
+{
+    "name": "a.parejo/active-directory",
+    "description": "Active Directory Package to import users",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Anna Lou Parejo",
+            "email": "a.parejo@createit.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-ldap": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ActiveDirectory": "src/"
+        }
+    }    
+}
